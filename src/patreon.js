@@ -18,6 +18,8 @@ function patreon(accessToken) {
         }
         let _response = undefined
 
+        console.info('Request URL:', url)
+
         return fetch(url, options)
             .then(response => {
                 _response = response
