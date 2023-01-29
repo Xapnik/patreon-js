@@ -8,7 +8,8 @@
     "examples": "npm run build && babel-node examples/server.js",
     "prepublishOnly": "npm run lint && npm run test && npm run build",
     "lint": "eslint src/",
-    "test": "babel-tape-runner tests/**/*.js"
+    "test": "babel-tape-runner tests/**/*.js",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,18 @@
   "engines": {
     "node": ">6.2.1"
   },
+  "files": [
+    "dist/index.js",
+    "dist/jsonapi-url.js",
+    "dist/oauth.js",
+    "dist/patreon.js",
+    "dist/utils.js",
+    "dist/schemas/campaign.js",
+    "dist/schemas/goal.js",
+    "dist/schemas/pledge.js",
+    "dist/schemas/reward.js",
+    "dist/schemas/user.js"
+  ],
   "bugs": {
     "url": "https://github.com/Xapnik/patreon-js/issues"
   },
