@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xapnik/patreon-js.git"
+    "url": "git+https://github.com/patreon/patreon-js.git"
   },
   "keywords": [
     "patreon"
@@ -36,9 +36,9 @@
     "dist/schemas/user.js"
   ],
   "bugs": {
-    "url": "https://github.com/Xapnik/patreon-js/issues"
+    "url": "https://github.com/patreon/patreon-js/issues"
   },
-  "homepage": "https://github.com/Xapnik/patreon-js#readme",
+  "homepage": "https://github.com/patreon/patreon-js#readme",
   "dependencies": {
     "form-urlencoded": "^2.0.4",
     "is-plain-object": "^2.0.4",
